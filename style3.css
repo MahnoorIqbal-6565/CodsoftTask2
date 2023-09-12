@@ -1,0 +1,140 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.header3 {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.header3 h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.main {
+    background-color: #fff;
+    max-width: 100%;
+    /* margin: 10px auto; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    flex: 1;
+    background-color: #d4d3d3;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    height: 350px;
+}
+
+.contact-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 18px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 95%;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+}
+
+.input-group textarea {
+    resize: vertical;
+}
+
+.input-group button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-info {
+    flex: 1;
+    background-color: #d4d3d3;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    height: 350px;
+    padding-left: 40px;
+}
+
+.contact-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.home-sci{
+    display: flex;
+    justify-content:space-around;
+}
+.bx{
+    font-size:40px ;
+    color: #333;
+    transition: 0.2s;
+}
+.bx:hover{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.555);
+}
+.icon h1{
+    font-size: 18px;    
+}
+.cover{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.inner-cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    height: 83px;
+    width: 250px;
+    border: 2px solid rgba(214, 202, 202, 0.473);
+    box-shadow: 0px 0px 3px 3px;
+    border-radius: 10px;
+}

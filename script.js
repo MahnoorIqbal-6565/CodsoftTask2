@@ -31,6 +31,7 @@ function updateSlider() {
 prevBtn.addEventListener('click', prevSlide);
 nextBtn.addEventListener('click', nextSlide);
 
+                // Gallery
 
 document.getElementById("filter").addEventListener("change", filterImages);
 
